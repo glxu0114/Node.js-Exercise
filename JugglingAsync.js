@@ -5,7 +5,6 @@ var array = [];
 var count = 0;
 function gethttp(index){
 http.get(process.argv[2+index], function(res)  {
-  //console.log(process.argv[2]);
   
   // consume response body
   res.setEncoding('utf8');
@@ -15,7 +14,7 @@ http.get(process.argv[2+index], function(res)  {
   body = '';
   res.on('data', function(chunk) {
     body += chunk;
-    //console.log(chunk);
+    //console.log(chunk); 
   });
   res.on('end', function() {
       array[index] = body;
@@ -27,7 +26,6 @@ http.get(process.argv[2+index], function(res)  {
               console.log(array[i]);
           }
       }
-      //console.log(array[index]);
 
   });
 
