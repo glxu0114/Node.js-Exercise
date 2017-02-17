@@ -1,7 +1,7 @@
 
-const http = require("http");
+const https = require("https");
 var body = [];
-http.get(process.argv[2], function(res)  {
+https.get(process.argv[2], function(res)  {
   //console.log(process.argv[2]);
   
   // consume response body
