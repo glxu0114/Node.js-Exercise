@@ -2,73 +2,79 @@
 1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node',
 1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm',
 1 verbose cli   'install',
-1 verbose cli   'bl' ]
-2 info using npm@4.1.1
+1 verbose cli   'thourgh2-map' ]
+2 info using npm@2.0.0
 3 info using node@v4.6.1
-4 silly loadCurrentTree Starting
-5 silly install loadCurrentTree
-6 silly install readLocalPackageData
-7 silly fetchPackageMetaData bl
-8 silly fetchNamedPackageData bl
-9 silly mapToRegistry name bl
-10 silly mapToRegistry using default registry
-11 silly mapToRegistry registry http://localhost:15443/
-12 silly mapToRegistry data Result {
-12 silly mapToRegistry   raw: 'bl',
-12 silly mapToRegistry   scope: null,
-12 silly mapToRegistry   escapedName: 'bl',
-12 silly mapToRegistry   name: 'bl',
-12 silly mapToRegistry   rawSpec: '',
-12 silly mapToRegistry   spec: 'latest',
-12 silly mapToRegistry   type: 'tag' }
-13 silly mapToRegistry uri http://localhost:15443/bl
-14 verbose request uri http://localhost:15443/bl
-15 verbose request no auth needed
-16 info attempt registry request try #1 at 5:35:06 AM
-17 verbose request id 67f81dfb49efb718
-18 http request GET http://localhost:15443/bl
-19 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:15443
-20 info attempt registry request try #2 at 5:35:16 AM
-21 http request GET http://localhost:15443/bl
-22 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:15443
-23 info attempt registry request try #3 at 5:36:16 AM
-24 http request GET http://localhost:15443/bl
-25 silly fetchPackageMetaData Error: connect ECONNREFUSED 127.0.0.1:15443
-25 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:907:11)
-25 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:930:20)
-25 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1077:14)
-25 silly fetchPackageMetaData  error for bl { [Error: connect ECONNREFUSED 127.0.0.1:15443]
-25 silly fetchPackageMetaData   code: 'ECONNREFUSED',
-25 silly fetchPackageMetaData   errno: 'ECONNREFUSED',
-25 silly fetchPackageMetaData   syscall: 'connect',
-25 silly fetchPackageMetaData   address: '127.0.0.1',
-25 silly fetchPackageMetaData   port: 15443 }
-26 silly rollbackFailedOptional Starting
-27 silly rollbackFailedOptional Finishing
-28 silly runTopLevelLifecycles Finishing
-29 silly install printInstalled
-30 verbose stack Error: connect ECONNREFUSED 127.0.0.1:15443
-30 verbose stack     at Object.exports._errnoException (util.js:907:11)
-30 verbose stack     at exports._exceptionWithHostPort (util.js:930:20)
-30 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1077:14)
-31 verbose cwd /home/ubuntu/workspace
-32 error Linux 4.8.2-c9
-33 error argv "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm" "install" "bl"
-34 error node v4.6.1
-35 error npm  v4.1.1
-36 error code ECONNREFUSED
-37 error errno ECONNREFUSED
-38 error syscall connect
-39 error Error: connect ECONNREFUSED 127.0.0.1:15443
-39 error     at Object.exports._errnoException (util.js:907:11)
-39 error     at exports._exceptionWithHostPort (util.js:930:20)
-39 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1077:14)
-39 error  { [Error: connect ECONNREFUSED 127.0.0.1:15443]
-39 error   code: 'ECONNREFUSED',
-39 error   errno: 'ECONNREFUSED',
-39 error   syscall: 'connect',
-39 error   address: '127.0.0.1',
-39 error   port: 15443 }
-40 error If you are behind a proxy, please make sure that the
-40 error 'proxy' config is set properly.  See: 'npm help config'
+4 warn package.json chat-example@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'thourgh2-map', null ]
+7 verbose cache add spec="thourgh2-map" args=["thourgh2-map",null]
+8 verbose parsed spec Result {
+8 verbose parsed spec   raw: 'thourgh2-map',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'thourgh2-map',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose parsed spec Result {
+9 verbose parsed spec   raw: 'thourgh2-map',
+9 verbose parsed spec   scope: null,
+9 verbose parsed spec   name: 'thourgh2-map',
+9 verbose parsed spec   rawSpec: '',
+9 verbose parsed spec   spec: '*',
+9 verbose parsed spec   type: 'range' }
+10 verbose addNamed [ 'thourgh2-map', '*' ]
+11 verbose addNamed [ null, '*' ]
+12 silly lockFile e8e83a25-thourgh2-map thourgh2-map@*
+13 verbose lock thourgh2-map@* /home/ubuntu/.npm/e8e83a25-thourgh2-map.lock
+14 silly addNameRange { name: 'thourgh2-map', range: '*', hasData: false }
+15 verbose mapToRegistry name thourgh2-map
+16 verbose mapToRegistry uri https://registry.npmjs.org/thourgh2-map
+17 verbose request on initialization, where is /thourgh2-map
+18 verbose request after pass 1, where is /thourgh2-map
+19 verbose request url raw /thourgh2-map
+20 verbose request resolving registry [ 'https://registry.npmjs.org/', './thourgh2-map' ]
+21 verbose request after pass 2, where is https://registry.npmjs.org/thourgh2-map
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 7:53:50 AM
+24 verbose request using bearer token for auth
+25 verbose request id 052c108a9c1ee4ed
+26 http request GET https://registry.npmjs.org/thourgh2-map
+27 http 404 https://registry.npmjs.org/thourgh2-map
+28 silly registry.get cb [ 404,
+28 silly registry.get   { 'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '2',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Fri, 17 Feb 2017 07:53:50 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     connection: 'close',
+28 silly registry.get     'x-served-by': 'cache-ord1747-ORD',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1487318030.370144,VS0,VE246',
+28 silly registry.get     vary: 'Accept-Encoding' } ]
+29 silly lockFile e8e83a25-thourgh2-map thourgh2-map@*
+30 silly lockFile e8e83a25-thourgh2-map thourgh2-map@*
+31 verbose stack Error: Not Found
+31 verbose stack     at errorResponse (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/lib/cache/add-named.js:267:10)
+31 verbose stack     at setData (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/lib/cache/add-named.js:210:12)
+31 verbose stack     at saved (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+31 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+32 verbose statusCode 404
+33 verbose pkgid thourgh2-map
+34 verbose cwd /home/ubuntu/workspace
+35 error Linux 4.8.8-c9
+36 error argv "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm" "install" "thourgh2-map"
+37 error node v4.6.1
+38 error npm  v2.0.0
+39 error code E404
+40 error 404 Not Found
+40 error 404
+40 error 404 'thourgh2-map' is not in the npm registry.
+40 error 404 You should bug the author to publish it (or use the name yourself!)
+40 error 404 It was specified as a dependency of 'chat-example'
+40 error 404
+40 error 404 Note that you can also install from a
+40 error 404 tarball, folder, http url, or git url.
 41 verbose exit [ 1, true ]

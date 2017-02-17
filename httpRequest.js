@@ -19,6 +19,7 @@ http.get(process.argv[2], function(res)  {
   console.log(`Got error: ${e.message}`);
   }).on('data', function(chunk) {
     body.push(chunk);
+    
     //console.log(chunk);
   }).on('end', function() {
     body.forEach(function(file){
